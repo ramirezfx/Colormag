@@ -17,7 +17,7 @@
         <div class="article-content clearfix">
             <div class="above-entry-meta">
                 {% for tags in post.tags %}
-                <a href="/tags/&#35;{{ tags }}"><button style="border-radius: 3px; padding: 3px 10px;">{{ tags }}</button></a>
+                <span class="cat-links"><a href="/tags/#{{ tags }}" rel="category tag"><i class="fa-solid fa-tags"></i> {{ tags }}</a>&nbsp;</span>
                 {% endfor %}
             </div>
             <header class="entry-header">
