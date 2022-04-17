@@ -1,0 +1,16 @@
+baseurl: "/"
+paginate_path: "/page:num"
+paginate: 10
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+sitename: Speedypreneur
+imglogopath: /wp-content/images/cropped-SPEEDYPRENEUR.html
+faviconpath: /wp-content/images/cropped-favicon-32x32.png
+appletouchiconpath: /wp-content/images/cropped-favicon-180x180.png
+logotitle: Speedypreneur
+logosubtitle: Learn - Take Action - Enjoy Your Success
+author: Speedypreneur
