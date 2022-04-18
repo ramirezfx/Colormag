@@ -34,6 +34,9 @@
         <!-- #page -->
         {% include style.html %}
         {% include scripts.html %}
+        {% if page.htmlbeforebodyend %}
+          {% include {{ page.htmlbeforebodyend }} %}
+        {% endif %}
     </body>
 
     <!-- Mirrored from localhost:8080/?p=17 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Apr 2022 13:33:52 GMT -->
