@@ -8,7 +8,7 @@ plugins:
   - jekyll-paginate
   - jekyll-youtube
 
-baseurl: https://test.speedypreneur.com
+url: https://test.speedypreneur.com
 sitename: Speedypreneur
 imglogopath: /wp-content/images/cropped-SPEEDYPRENEUR.html
 faviconpath: /wp-content/images/cropped-favicon-32x32.png
